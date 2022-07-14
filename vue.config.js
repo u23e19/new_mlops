@@ -1,3 +1,5 @@
 module.exports ={
-    publicPath:'/vue-pages/'
+    publicPath:'/'
 }
+
+
