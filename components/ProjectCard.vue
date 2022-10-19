@@ -16,6 +16,7 @@
 							class="block w-full h-full transform-gpu"
 							loading="lazy"     
 						/>
+					
 					</a>
 				</div>
 				<div>
@@ -104,6 +105,13 @@
 		<!--  eslint-enable vue/no-v-html -->
 
 		<!-- YouTube -->
+
+			<img             
+							:src="project.Image "
+							
+							
+							loading="lazy"     
+						/>
 		<div
 			v-if="project.youTubeVideoId"
 			class="block aspect-w-16 aspect-h-9 relative mt-10 lg:mt-6 rounded overflow-hidden group video-block"

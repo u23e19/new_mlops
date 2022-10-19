@@ -19,7 +19,7 @@ export const state = () => ({
 
 export const getters = {
 	getProjects(state) {
-		return _.orderBy(state.projects, 'name', 'asc')
+		return _.orderBy(state.projects, 'name', 'desc')
 	},
 	getCategories(state) {
 		return [...new Set(state.projects.map((project) => project.category))]
@@ -35,7 +35,7 @@ export const getters = {
 					color: state.categoryColors[project.category][0],
 				})),
 			'name',
-			'asc',
+			'desc',
 		)
 	},
 	getCategoryColors(state) {

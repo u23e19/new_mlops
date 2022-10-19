@@ -1,4 +1,6 @@
 {
+  "name": "mlops.toys",
+  "short_name": "mlops.toys",
   "icons": [
     {
       "src": "/_nuxt/icons/icon_64x64.c1c3d9.png",
