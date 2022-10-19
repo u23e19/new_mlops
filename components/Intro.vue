@@ -3,7 +3,7 @@
 		<Container ref="introContainer" class="max-w-lg lg:max-w-md">
 			<Icon name="logo" class="block w-16 h-16 lg:w-10 lg:h-10 text-aporia mx-auto" />
 			<h1 class="text-3xl lg:text-xl mx-auto font-bold text-gray-900 mt-3">MLOps.toys</h1>
-			<p class="mt-4 text-lg lg:text-base text-gray-500">A curatedfdfd list of MLOps projects</p>
+			<p class="mt-4 text-lg lg:text-base text-gray-500">A list of MLOps projects</p>
 			<AppButton
 				tag="a"
 				href="#projects"
