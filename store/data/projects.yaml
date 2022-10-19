@@ -17,7 +17,7 @@
     - **Model Serving:** Serve models directly into production from a model registry, complete with lineage metadata, backed by a managed Kubernetes cluster for maximum scalability and robustness.
 
     - **Experiment Management:** Manage, organize, collaborate on, and visualize your entire ML training portfolio in the cloud, under one centralized control pane.
-  logo: /images/projects/spell.svg
+  logo: ./images/projects/spell.svg
   introLogoVisible: true
   youTubeVideoId: s2E5sfmEbec
 - name: Katonic.ai
@@ -49,7 +49,7 @@
     Katonic provides a unified system—leveraging Kubernetes for containerization and scalability for the portability and repeatability of
     its pipelines.
 
-  logo: /images/projects/katonic.png
+  logo: ./images/projects/katonic.png
   introLogoVisible: true
   youTubeVideoId: cGl5CqSiPLw
 - name: Orchest
@@ -77,7 +77,7 @@
 
     - Easily define your dependencies to run on **any machine**
 
-  logo: /images/projects/orchest.png
+  logo: ./images/projects/orchest.png
   introLogoVisible: true
   gitHubRepoName: orchest/orchest
   youTubeVideoId: BUpSVE2mtz4
@@ -95,7 +95,7 @@
 
     - **Industry standard for data profiling** enabled by the open source "whylogs" library
 
-  logo: /images/projects/whylabs.png
+  logo: ./images/projects/whylabs.png
   introLogoVisible: true
   gitHubRepoName: whylabs/whylogs
   youTubeVideoId: UsDsLEpigBw
@@ -117,7 +117,7 @@
 
     - **Benchmark model output** to quickly detect regressions, or compare behaviours for model selection
 
-  logo: /images/projects/hypervector.png
+  logo: ./images/projects/hypervector.png
   introLogoVisible: true
   gitHubRepoName: hypervectorio/hypervector-wrapper
   youTubeVideoId: 877h1umtJAo
@@ -148,7 +148,7 @@
 
     - **Cloud, Framework agnostic** - Deploy ML models written in frameworks you
     love and run them on the cloud you want with no extensive and time-consuming setup.
-  logo: /images/projects/syndicai.svg
+  logo: ./images/projects/syndicai.svg
   introLogoVisible: true
 - name: PrimeHub
   buttonText: Try PrimeHub
@@ -171,7 +171,7 @@
 
     - Capability Augmentation with 3rd-party Apps Store
 
-  logo: /images/projects/primehub.png
+  logo: ./images/projects/primehub.png
   introLogoVisible: true
   gitHubRepoName: InfuseAI/primehub
   youTubeVideoId: 3ZOPXR9L2Ho
@@ -190,11 +190,11 @@
     - **Zero configuration**: Don't waste time on DevOps heavy lifting. Each DAGsHub project comes with a free,
     built-in DVC data storage and MLflow server, with team access controls, so you can just add the URL, and get to work.
 
-    - **Diff, compare, and review anything**: DAGsHub lets you diff Jupyter notebooks, tables, images, experiments, and even MRI data,
+    - **Diff, compare, and review anything**: DAGsHub lets you diff Jupyter notebooks, tables,. images, experiments, and even MRI data,
     so you can compare apples to apples, review, and make sense of your work.
 
     - **Reproducibility is a click away**: Get all components of an experiment on your system. It's as easy as `git checkout`.
-  logo: /images/projects/dagshub.svg
+  logo: ./images/projects/dagshub.svg
   introLogoVisible: true
   youTubeVideoId: lrzdqEwzoo8
 - name: Determined
@@ -223,7 +223,7 @@
     Determined integrates these features into an easy-to-use, high-performance
     deep learning environment — which means you can spend your time building
     models instead of managing infrastructure.
-  logo: /images/projects/determined.svg
+  logo: ./images/projects/determined.svg
   introLogoVisible: true
   gitHubRepoName: determined-ai/determined
 - name: Flyte
@@ -243,7 +243,7 @@
     - Reproducible Pipelines
 
     - Strong Data Typing
-  logo: /images/projects/flyte.svg
+  logo: ./images/projects/flyte.svg
   introLogoVisible: true
   gitHubRepoName: flyteorg/flyte
   youTubeVideoId: 1BjXC5TZAiI
@@ -261,7 +261,7 @@
 
 
     Anywhere you are running Kubernetes, you should be able to run Kubeflow.
-  logo: /images/projects/kubeflow.svg
+  logo: ./images/projects/kubeflow.svg
   introLogoVisible: true
   gitHubRepoName: kubeflow/kubeflow
   youTubeVideoId: cTZArDgbIWw
@@ -273,7 +273,7 @@
     OpenPAI is an open-source platform that provides complete AI model training
     and resource management capabilities, it is easy to extend and supports
     on-premise, cloud, and hybrid environments on various scales.
-  logo: /images/projects/pai.svg
+  logo: ./images/projects/pai.svg
   introLogoVisible: true
   gitHubRepoName: Microsoft/pai
   youTubeVideoId: C9eRaqqAOeY
@@ -294,7 +294,7 @@
 
     - Feature Store Modeling: the library easily provides everything you need to process and load data to your Feature Store.
 
-  logo: /images/projects/quintoandar.svg
+  logo: ./images/projects/quintoandar.svg
   introLogoVisible: true
   gitHubRepoName: quintoandar/butterfree
 - name: Feast
@@ -313,7 +313,7 @@
     - Feast solves the challenge of data leakage by providing point-in-time correct feature retrieval when exporting feature datasets for model training.
 
     - With Feast, data scientists can start new ML projects by selecting previously engineered features from a centralized registry, and are no longer required to develop new features for each project.
-  logo: /images/projects/feast.svg
+  logo: ./images/projects/feast.svg
   introLogoVisible: true
   gitHubRepoName: feast-dev/feast
   youTubeVideoId: DaNv-Wf1MBA
@@ -334,7 +334,7 @@
     - Integrates seamlessly with popular platforms for Data Science, such as AWS Sagemaker and Databricks. It also integrates with backend datalakes, such as S3 and Hadoop.
 
     - Supports both cloud and on-prem deployments.
-  logo: /images/projects/hopsworks.svg
+  logo: ./images/projects/hopsworks.svg
   introLogoVisible: true
   gitHubRepoName: logicalclocks/hopsworks
   youTubeVideoId: uVBeoeENEcI
@@ -362,7 +362,7 @@
     - **MLflow Models:** A model packaging format and tools that let you easily deploy the same model (from any ML library) to batch and real-time scoring on platforms such as Docker, Apache Spark, Azure ML and AWS SageMaker.
 
     - **MLflow Model Registry:** A centralized model store, set of APIs, and UI, to collaboratively manage the full lifecycle of MLflow Models.
-  logo: /images/projects/mlflow.svg
+  logo: ./images/projects/mlflow.svg
   introLogoVisible: true
   gitHubRepoName: mlflow/mlflow
   youTubeVideoId: VokAGy8C6K4
@@ -396,7 +396,7 @@
     and team ledgers. DVC also replaces both ad-hoc scripts to track, move, and
     deploy different model versions; as well as ad-hoc data file suffixes and
     prefixes.
-  logo: /images/projects/dvc.svg
+  logo: ./images/projects/dvc.svg
   introLogoVisible: true
   gitHubRepoName: iterative/dvc
 - name: Pachyderm
@@ -420,7 +420,7 @@
     - **Parallelization**: Pachyderm can efficiently schedule massively parallel workloads.
 
     - **Incremental Processing**: Pachyderm understands how your data has changed and is smart enough to only process the new data.
-  logo: /images/projects/pachyderm.svg
+  logo: ./images/projects/pachyderm.svg
   introLogoVisible: true
   gitHubRepoName: pachyderm/pachyderm
   youTubeVideoId: r9CrtAtuJDI
@@ -439,7 +439,7 @@
     - Capture dataset versions with W&B Artifacts to identify how changing data affects your resulting models.
 
     - Reproduce any model, with saved code, hyperparameters, launch commands, input data, and resulting model weights.
-  logo: /images/projects/wandb.png
+  logo: ./images/projects/wandb.png
   introLogoVisible: true
   gitHubRepoName: wandb/client
   youTubeVideoId: 91HhNtmb0B4
@@ -456,7 +456,7 @@
     - **Explore & Compare**: Easily search, group and aggregate metrics by any hyperparameter.
 
     - **Dashboard**: Activity view and full experiments dashboard for all experiments.
-  logo: /images/projects/aim.png
+  logo: ./images/projects/aim.png
   introLogoVisible: true
   gitHubRepoName: aimhubio/aim
 - name: ClearML
@@ -476,7 +476,7 @@
     - **ClearML Orchestrate:** The easiest way to manage scheduling and orchestration for GPU / CPU resources and to auto-scale on cloud & on-prem machines. Replicate your dev environment for training anywhere or develop on remote VMs.
 
     - **ClearML Feature Store:** Data analysis versioning & lineage for full reproducibility. Build and automate data pipelines for R&D and production. Rebalance, debias and mix & match datasets for fine grain control of your data.
-  logo: /images/projects/clearml.svg
+  logo: ./images/projects/clearml.svg
   introLogoVisible: true
   gitHubRepoName: allegroai/clearml
   youTubeVideoId: Y5tPfUm9Ghg
@@ -495,7 +495,7 @@
     - **Auto reports for ML experiments.** Auto-generate reports with metrics and plots in each Git Pull Request. Rigorous engineering practices help your team make informed, data-driven decisions.
 
     - **No additional services.** Build your own ML platform using just GitHub or GitLab and your favourite cloud services: AWS, Azure, GCP. No databases, services or complex setup needed.
-  logo: /images/projects/cml.png
+  logo: ./images/projects/cml.png
   introLogoVisible: true
   gitHubRepoName: iterative/cml
   youTubeVideoId: 9BgIDqAzfuA
@@ -527,7 +527,7 @@
   competesWith:
     - [Seldon Core, to some extent]
     - [KFServing, to some extent]
-  logo: /images/projects/bentoml.svg
+  logo: ./images/projects/bentoml.svg
   introLogoVisible: true
   gitHubRepoName: bentoml/BentoML
 - name: Cortex
@@ -567,7 +567,7 @@
     - Autoscale to handle production traffic.
 
     - Reduce cost with spot instances.
-  logo: /images/projects/cortex.svg
+  logo: ./images/projects/cortex.svg
   introLogoVisible: true
   gitHubRepoName: cortexlabs/cortex
 - name: KFServing
@@ -589,7 +589,7 @@
 
     - Enable a simple, pluggable, and complete story for your production ML inference server by providing prediction, pre-processing, post-processing and explainability out of the box.
 
-  logo: /images/projects/kubeflow.svg
+  logo: ./images/projects/kubeflow.svg
   introLogoVisible: true
   gitHubRepoName: kubeflow/kfserving
   youTubeVideoId: lj_X2ND2BBI
@@ -613,7 +613,7 @@
     - Can be used with cloud AI platforms like Azure ML and Google CAIP.
 
     - Triton exports Prometheus metrics for monitoring.
-  logo: /images/projects/nvidia.svg
+  logo: ./images/projects/nvidia.svg
   introLogoVisible: true
   gitHubRepoName: triton-inference-server/server
   youTubeVideoId: 1DUqD3zMwB4
@@ -642,7 +642,7 @@
     and provides advanced machine learning capabilities out of the box including
     Advanced Metrics, Request Logging, Explainers, Outlier Detectors, A/B Tests,
     Canaries and more.
-  logo: /images/projects/seldoncore.svg
+  logo: ./images/projects/seldoncore.svg
   introLogoVisible: true
   gitHubRepoName: SeldonIO/seldon-core
   youTubeVideoId: Xildxp_CsmA
@@ -665,7 +665,7 @@
     - Supports canarying new versions and A/B testing experimental models.
 
     - Adds minimal latency to inference time due to efficient, low-overhead implementation.
-  logo: /images/projects/tensorflow.svg
+  logo: ./images/projects/tensorflow.svg
   introLogoVisible: true
   gitHubRepoName: tensorflow/serving
   youTubeVideoId: q_IkJcPyNl0
@@ -684,7 +684,7 @@
     - TorchServe includes multi-model serving, model versioning for A/B testing, monitoring metrics, and RESTful endpoints for application integration.
 
     - TorchServe supports any machine learning environment, including Amazon SageMaker, container services, and Amazon Elastic Compute Cloud (EC2).
-  logo: /images/projects/pytorch.svg
+  logo: ./images/projects/pytorch.svg
   introLogoVisible: true
   gitHubRepoName: pytorch/pytorch
   youTubeVideoId: 9lMMCwVhPpo
@@ -707,7 +707,7 @@
     - **User-friendly & flexible**: A simple, intuitive dashboard for all your models in production.
 
     - **Data segments**: Define & monitor slices of data based on selected features.
-  logo: /images/projects/aporia-logo.svg
+  logo: ./images/projects/aporia-logo.svg
   introLogoVisible: true
   youTubeVideoId: 9oyZDXrmWMA
 - name: Evidently AI
@@ -725,7 +725,7 @@
     - **Data Drift:** Compare recent data with the past. Learn which features changed and if key models drivers shifted. Visually explore and understand drift.
 
     - **Target Drift:** Understand how model predictions and target change over time. If the ground truth is delayed, catch the model decay in advance.
-  logo: /images/projects/evidentlyai.ico
+  logo: ./images/projects/evidentlyai.ico
   introLogoVisible: true
   youTubeVideoId: 2suSzXlY_7Y
 - name: Deepchecks
@@ -748,7 +748,7 @@
     - Detecting Mismatches between research and production environments
 
     - Quick Querying of problematic production data
-  logo: /images/projects/deepchecks.png
+  logo: ./images/projects/deepchecks.png
   introLogoVisible: true
 - name: ELI5
   buttonText: Try ELI5
@@ -758,7 +758,7 @@
     ELI5 is a Python library which allows to visualize and debug various Machine
     Learning models using unified API. It has built-in support for several ML
     frameworks and provides a way to explain black-box models.
-  logo: /images/projects/teamhg.svg
+  logo: ./images/projects/teamhg.svg
   introLogoVisible: true
   gitHubRepoName: TeamHG-Memex/eli5
   youTubeVideoId: s-yT5Is1G1A
@@ -789,7 +789,7 @@
     - Regulatory compliance - Does my model satisfy legal requirements?
 
     - High-risk applications - Healthcare, finance, judicial, ...
-  logo: /images/projects/interpretml.svg
+  logo: ./images/projects/interpretml.svg
   introLogoVisible: true
   gitHubRepoName: interpretml/interpret
   youTubeVideoId: WwBeKMQ0-I8
@@ -801,7 +801,7 @@
     This project is about explaining what machine learning classifiers (or
     models) are doing. At the moment, we support explaining individual
     predictions for text classifiers or classifiers that act on tables (numpy
-    arrays of numerical or categorical data) or images, with a package called
+    arrays of numerical or categorical data) or. images, with a package called
     lime (short for local interpretable model-agnostic explanations). Lime is
     based on the work presented in this paper (bibtex here for citation).
   introLogoVisible: false
@@ -816,7 +816,7 @@
     the output of any machine learning model. It connects optimal credit
     allocation with local explanations using the classic Shapley values from
     game theory and their related extensions.
-  logo: /images/projects/shap.svg
+  logo: ./images/projects/shap.svg
   introLogoVisible: true
   gitHubRepoName: slundberg/shap
 - name: Fiddler
@@ -832,7 +832,7 @@
     - Explainable AI or XAI makes these AI black boxes more like AI glass-boxes by enabling users to always understand the ‘why’ behind their decisions.
 
     - Identify, address, and share performance gaps and biases quickly for AI validation and debugging
-  logo: /images/projects/fiddler.png
+  logo: ./images/projects/fiddler.png
   introLogoVisible: true
   youTubeVideoId: gqnDqrIzabw
 - name: Comet
@@ -843,7 +843,7 @@
     Comet enables data scientists and teams to track, compare, explain and
     optimize experiments and models across the model’s entire lifecycle. From
     training to production.
-  logo: /images/projects/cometml.png
+  logo: ./images/projects/cometml.png
   introLogoVisible: true
   youTubeVideoId: cX5tx202PXM
 - name: Bytehub
@@ -893,7 +893,7 @@
     On demand, or on a schedule. It automates repetitive DevOps tasks and frees
     machine learning engineers to focus on what they do best - solving data
     problems with machine learning.
-  logo: /images/projects/bodywork.png
+  logo: ./images/projects/bodywork.png
   introLogoVisible: true
   gitHubRepoName: bodywork-ml/bodywork-core/
 - name: Neptune
@@ -918,7 +918,7 @@
     - 25+ integrations with popular data science stack libraries
 
     - Fast, reliable UI
-  logo: /images/projects/neptune.svg
+  logo: ./images/projects/neptune.svg
   introLogoVisible: true
   gitHubRepoName: neptune-ai/neptune-client
   youTubeVideoId: w9S5srkfSI4
@@ -943,7 +943,7 @@
 
     - **Monitor Your Models and Data on the Fly:** Manage, govern and monitor your models and real-time features
     in production with a simple dashboard integrated with Iguazio’s Feature Store.
-  logo: /images/projects/iguazio.png
+  logo: ./images/projects/iguazio.png
   introLogoVisible: true
   youTubeVideoId: BzQQ1X4LgcQ
 - name: MLRun
@@ -968,7 +968,7 @@
     - **Central Management:** Provides a unified portal for managing the entire MLOps workflow. The portal
     includes a UI, a CLI, and an SDK, which are accessible from anywhere.
 
-  logo: /images/projects/mlrun.png
+  logo: ./images/projects/mlrun.png
   introLogoVisible: true
   gitHubRepoName: mlrun/mlrun
   youTubeVideoId: imiTr1aXRKU
@@ -998,7 +998,7 @@
 
     - **Interactive console.** Helps you debug workflows quickly.
 
-  logo: /images/projects/ploomber.svg
+  logo: ./images/projects/ploomber.svg
   introLogoVisible: true
   gitHubRepoName: ploomber/ploomber
   youTubeVideoId: XCgX1AszVF4
@@ -1017,7 +1017,7 @@
     2. **Focus 100% on Machine Learning:** Manage your ML models from one place without dealing with low level engineering tasks
 
     3. **100% reliable:** No more flaky ML pipelines. Sagify offers 100% reliable training and deployment on AWS.
-  logo: /images/projects/sagify.png
+  logo: ./images/projects/sagify.png
   introLogoVisible: true
   gitHubRepoName: Kenza-AI/sagify
 - name: Valohai
@@ -1034,7 +1034,7 @@
     - **API, CLI, GUI and Jupyter integration:** Valohai integrates to almost any workflow through its many interfaces.
 
     - **Managed service:** Seasoned DevOps engineers manage Valohai – so you don’t have to be one.
-  logo: /images/projects/valohai.svg
+  logo: ./images/projects/valohai.svg
   introLogoVisible: true
   youTubeVideoId: jnrSd2nqCWg
 - name: Spock
@@ -1068,7 +1068,7 @@
 
     - **S3 Addon:** Automatically detects s3:// URI(s) and handles loading and saving spock configuration files when an active boto3.Session is passed in (plus any additional S3Transfer configurations)
 
-  logo: /images/projects/spock.png
+  logo: ./images/projects/spock.png
   introLogoVisible: true
   gitHubRepoName: fidelity/spock
 - name: Stoke
@@ -1091,7 +1091,7 @@
 
     - **Extensions:** fairscale (Optimizer State Sharding and Sharded DDP), deepspeed (ZeRO Stage 0-3, etc.)
 
-  logo: /images/projects/stoke.png
+  logo: ./images/projects/stoke.png
   introLogoVisible: true
   gitHubRepoName: fidelity/stoke
 - name: lakeFS
@@ -1113,7 +1113,7 @@
 
     - **Resilient:** Recover from data issues faster with revert capability.
 
-  logo: /images/projects/lakefs.svg
+  logo: ./images/projects/lakefs.svg
   introLogoVisible: true
   gitHubRepoName: treeverse/lakeFS
   youTubeVideoId: xThorxDzmrw
@@ -1137,7 +1137,7 @@
 
     - Supports different file systems: local (e.g. NFS), Google Cloud Storage (GCS), Amazon S3, Minio or Azure Blob Storage
 
-  logo: /images/projects/ovms.png
+  logo: ./images/projects/ovms.png
   introLogoVisible: true
   gitHubRepoName: openvinotoolkit/model_server
   youTubeVideoId: AfytPrAVdfc

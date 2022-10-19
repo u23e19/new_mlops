@@ -11,7 +11,7 @@
 						@click="$gtagEvents.externalLinkClick(project.link)"
 					>
 						<img             
-							:src="project.logo || '/images/projects/default.svg'"
+							:src="project.logo || './images/projects/default.svg'"
 							alt="project.name"
 							class="block w-full h-full transform-gpu"
 							loading="lazy"     
