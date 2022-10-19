@@ -11,10 +11,10 @@
 				@click="
 					$gtag.event('click', {
 						event_category: 'button',
-						event_label: 'Discover projects',
+						event_label: 'New projects',
 					})   
 				"
-				>Discover projects</AppButton
+				>New projects</AppButton
 			>
 		</Container>
 		<div

@@ -685,17 +685,17 @@
 
     - TorchServe supports any machine learning environment, including Amazon SageMaker, container services, and Amazon Elastic Compute Cloud (EC2).
   logo: /images/projects/pytorch.svg
-  # logo: /images/projects/aim.png
   introLogoVisible: true
   gitHubRepoName: pytorch/pytorch
   youTubeVideoId: 9lMMCwVhPpo
 - name: Aporia
-  buttonText: Try Aporia    
-  # Image: /images/projects/pytorch.svg
+  buttonText: Try Aporia
   link: 'https://aporia.com/'
   category: Model Monitoring
   description: >-
-    With Aporiaaaa data scientists and ML engineers can easily build monitoring for their ML models running in production.
+    With Aporia data scientists and ML engineers can easily build monitoring for their ML models running in production.
+
+
     Features:
 
     - **Build your own monitors**: Easily define monitoring logic.
@@ -707,10 +707,8 @@
     - **User-friendly & flexible**: A simple, intuitive dashboard for all your models in production.
 
     - **Data segments**: Define & monitor slices of data based on selected features.
-  logo: /images/projects/aim.png
-  # Image(image: AssetImage('/images/projects/aim.png'))   
+  logo: /images/projects/aporia-logo.svg
   introLogoVisible: true
-  Image: /images/projects/aim.png
   youTubeVideoId: 9oyZDXrmWMA
 - name: Evidently AI
   buttonText: Try Evidently AI
@@ -1117,10 +1115,8 @@
 
   logo: /images/projects/lakefs.svg
   introLogoVisible: true
-  Image: /images/projects/aporia.png
-  Image: /images/projects/aporia.png
   gitHubRepoName: treeverse/lakeFS
-  # youTubeVideoId: xThorxDzmrw                                                    
+  youTubeVideoId: xThorxDzmrw
 - name: OpenVINO™ Model Server
   buttonText: Try OpenVINO™ Model Server
   link: https://github.com/openvinotoolkit/model_server
@@ -1137,12 +1133,11 @@
 
     - The server implements gRPC and REST API framework with data serialization and deserialization using TensorFlow Serving API
 
-    - Uses OpenVINO™ as the inference execution provider   
+    - Uses OpenVINO™ as the inference execution provider
 
     - Supports different file systems: local (e.g. NFS), Google Cloud Storage (GCS), Amazon S3, Minio or Azure Blob Storage
 
   logo: /images/projects/ovms.png
   introLogoVisible: true
-  
   gitHubRepoName: openvinotoolkit/model_server
   youTubeVideoId: AfytPrAVdfc
